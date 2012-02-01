@@ -1,20 +1,50 @@
+
+
+#container{
+margin:auto;
+background-color:#112233;
+
+
+
+}
+
+
+
 #pic1{
 
 width:250px;
-height:250px;
+height:100px;
 position:relative;
 
 }
 
-#container{
-width:1000px;
-height:1000px;
-background-color:#112233;
 
+
+img.one{
+-webkit-transform: scale(.50,.50) translateX(-100px);
 
 }
 
-img{
--webkit-transform: scale(.25,.25);
+img.two{
+-webkit-transform: scale(.50,.50) translateX(-600px);
+}
+
+img.three{
+-webkit-transform: scale(.50,.50) translateX(-1100px);
+
+}
+
+img.four{
+-webkit-transform: scale(.50,.50) translateX(-1600px);
+
+}
+
+img.five{
+-webkit-transform: scale(.50,.50) translateX(-100px);
+
+}
+
+img.six{
+-webkit-transform: scale(.50,.50) translateX(-1600px);
 
 }
