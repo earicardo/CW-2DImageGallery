@@ -1,81 +1,110 @@
-#container{
-margin:auto;
-background-color:#112233;
+body{
+background-color:#F00;		
 }
 
-#pic1{
+#fullcontainer1{
+	width:600px;
+	height:600px;
+	position:relative;
+}
+
+
+img.picture1{
+height:200px;
+height:200px;
+-webkit-transform: rotate(45deg);
+-moz-transform:  rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+position:absolute;
+top:0px;
+left:0px;
+}
+
+
+
+
+
+#captioncontainer1{
+	position:absolute;
+	top:0px;
+	height:0px;
+opacity:0;
 width:200px;
 height:200px;
-position:relative;
-background-color:#F00;
-
+z-index:3;
 }
 
-img.one{
+
+
+
+#captioncontainer1:hover{
+opacity:1;
+width:200px;
+height:200px;
+}
+
+
+
+
+
+
+
+
+
+#fullcontainer2{
+	width:600px;
+	height:600px;
+	position:relative;
+}
+
+
+img.picture2{
 height:200px;
 height:200px;
-float: left;
 -webkit-transform: rotate(45deg);
 -moz-transform:  rotate(45deg);
 -ms-transform: rotate(45deg);
 -o-transform: rotate(45deg);
 transform: rotate(45deg);
-}
-
-img.two{
-height:200px;
-height:200px;
-float: left;
--webkit-transform: rotate(45deg);
--moz-transform:  rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
-}
-
-img.three{
-height:200px;
-height:200px;
-float: left;
--webkit-transform: rotate(45deg);
--moz-transform:  rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
-}
-
-img.four{
-height:200px;
-height:200px;
-float: left;
--webkit-transform: rotate(45deg);
--moz-transform:  rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+position:absolute;
+top:0px;
+left:0px;
 }
 
 
-img.five{
+
+
+
+#captioncontainer2{
+	position:absolute;
+	top:0px;
+	height:0px;
+opacity:0;
+width:200px;
 height:200px;
-height:200px;
-float: left;
--webkit-transform: rotate(45deg);
--moz-transform:  rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+z-index:3;
 }
 
 
-img.six{
+
+
+#captioncontainer2:hover{
+opacity:1;
+width:200px;
 height:200px;
-height:200px;
-float: left;
--webkit-transform: rotate(45deg);
--moz-transform:  rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
