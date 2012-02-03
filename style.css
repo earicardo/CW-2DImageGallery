@@ -2,14 +2,23 @@ body{
 background-color:#F00;		
 }
 
-#fullcontainer1{
-	width:600px;
-	height:600px;
+ 
+/*Both the picture and caption will be inside this container ID*/
+
+#fullcontainer{
+	width:200px;
+	height:200px;
 	position:relative;
+	float:left;
+	margin:100px;
+	top:150px;;
 }
 
 
-img.picture1{
+
+/*This affects the image transform, tilting the image in a 45 degree angle*/
+
+img.pictureTransform{
 height:200px;
 height:200px;
 -webkit-transform: rotate(45deg);
@@ -26,7 +35,17 @@ left:0px;
 
 
 
-#captioncontainer1{
+
+
+
+
+
+
+
+/*this is the caption container that is hidden*/
+
+#captioncontainer{
+	display:block;
 	position:absolute;
 	top:0px;
 	height:0px;
@@ -37,64 +56,17 @@ z-index:3;
 }
 
 
+/*this is the caption container that shows up when you hover on it*/
 
-
-#captioncontainer1:hover{
-opacity:1;
+#captioncontainer:hover{
 width:200px;
 height:200px;
+display:block;
+background-color:#ffffff;
+opacity:.5;
 }
 
 
-
-
-
-
-
-
-
-#fullcontainer2{
-	width:600px;
-	height:600px;
-	position:relative;
-}
-
-
-img.picture2{
-height:200px;
-height:200px;
--webkit-transform: rotate(45deg);
--moz-transform:  rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
-position:absolute;
-top:0px;
-left:0px;
-}
-
-
-
-
-
-#captioncontainer2{
-	position:absolute;
-	top:0px;
-	height:0px;
-opacity:0;
-width:200px;
-height:200px;
-z-index:3;
-}
-
-
-
-
-#captioncontainer2:hover{
-opacity:1;
-width:200px;
-height:200px;
-}
 
 
 
