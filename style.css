@@ -1,7 +1,13 @@
 body{
-background-color:#F00;		
+	background-color:#FFF;
+	background-image: url(6fbksvj.png);
 }
 
+section {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
  
 /*Both the picture and caption will be inside this container ID*/
 
@@ -11,34 +17,48 @@ background-color:#F00;
 	position:relative;
 	float:left;
 	margin:100px;
-	top:150px;;
+	top:150px;
+	-webkit-transform: rotate(0deg);
+-moz-transform:  rotate(0deg);
+-ms-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+
+}
+
+
+#fullcontainer:hover{
+	width:200px;
+	height:200px;
+	position:relative;
+	float:left;
+	margin:100px;
+	top:150px;
+		-webkit-transform: rotate(15deg) scale(1.5, 1.5) ;
+-moz-transform:  rotate(15deg) scale(1.5, 1.5);
+-ms-transform: rotate(15deg) scale(1.5, 1.5);
+-o-transform: rotate(15deg) scale(1.5, 1.5);
+transform: rotate(15deg) scale(1.5, 1.5);
+	
+	-webkit-transition: -webkit-transform 0.5s ease;
+	-moz-transform:  moz-transform 0.5s ease;
+	
 }
 
 
 
 /*This affects the image transform, tilting the image in a 45 degree angle*/
 
+
 img.pictureTransform{
+width:200px;
 height:200px;
-height:200px;
--webkit-transform: rotate(45deg);
--moz-transform:  rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+
+
 position:absolute;
 top:0px;
 left:0px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -49,10 +69,16 @@ left:0px;
 	position:absolute;
 	top:0px;
 	height:0px;
-opacity:0;
-width:200px;
-height:200px;
-z-index:3;
+	opacity:0;
+	width:200px;
+	height:100px;
+	z-index:3;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #333;
+	text-align: center;
+	padding-top: 100px;
 }
 
 
@@ -60,10 +86,10 @@ z-index:3;
 
 #captioncontainer:hover{
 width:200px;
-height:200px;
+height:100px;
 display:block;
 background-color:#ffffff;
-opacity:.5;
+opacity:.75;
 -webkit-transition: background 0.5s ease;
 -moz-transition:  background 0.5s ease;
 -ms-transition: background 0.5s ease;
